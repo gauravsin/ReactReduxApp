@@ -58,7 +58,6 @@ function ManageCoursePage({
 
   function handleSave(event) {
     event.preventDefault();
-    debugger;
     if (!formIsValid()) return;
     setSaving(true);
     saveCourse(course)
